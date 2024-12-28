@@ -1,0 +1,1 @@
+The Firebase SDK may throw an error if the data being written to the database is too large. This can occur if you are attempting to write a large object or array to the database in a single operation.  The error message may not be very descriptive, making it difficult to diagnose.  Sometimes, it manifests as a silent failure or a generic network error.
